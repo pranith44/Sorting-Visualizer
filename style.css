@@ -9,11 +9,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
 }
-/* #input{
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
-}  */
+
 .flex-container{
     margin-top: 20px;
     display: flex;
