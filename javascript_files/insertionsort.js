@@ -1,6 +1,6 @@
 async function insertion() {
     let comp=document.querySelector("#complexcity");
-    comp.innerHTML='Time Complexcity : O(n^2) ';
+    comp.innerHTML='Time Complexcity : O(n'+ '<sup>2</sup>'+')';
     console.log('In insertion()');
     const ele = document.querySelectorAll(".bar");
     ele[0].style.background='green';

@@ -1,6 +1,6 @@
 async function selection() {
     let comp=document.querySelector("#complexcity");
-    comp.innerHTML='Time Complexcity : O(n^2) ';
+    comp.innerHTML='Time Complexcity : O(n'+ '<sup>2</sup>'+')';
     console.log('In selection()');
     const ele = document.querySelectorAll(".bar");
     for(let i = 0; i < ele.length; i++){

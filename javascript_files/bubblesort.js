@@ -7,8 +7,9 @@
 //     t.innerHTML='Run Time : '+time_taken+' millisecs';
 // }
 async function bubble() {
+    // let k=n;
     let comp=document.querySelector("#complexcity");
-    comp.innerHTML='Time Complexcity : O(n^2) ';
+    comp.innerHTML='Time Complexcity : O(n'+ '<sup>2</sup>'+')';
     console.log('In bubbe()');
     const ele = document.querySelectorAll(".bar");
     for(let i = 0; i < ele.length-1; i++){
